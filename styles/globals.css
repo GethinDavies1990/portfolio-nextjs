@@ -4,7 +4,8 @@
 
 @layer base {
 	body {
-		@apply bg-slate-950 text-violet-500 tracking-wide;
+		/* @apply bg-slate-950 text-violet-500 tracking-wide; */
+		@apply bg-white text-gray-900 tracking-wide;
 	}
 
 	h1,
