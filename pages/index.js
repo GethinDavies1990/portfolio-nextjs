@@ -1,6 +1,7 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import Navbar from '../components/Navbar'
+import Main from '../components/Main'
+import About from '../components/About'
 
 
 export default function Home() {
@@ -9,9 +10,10 @@ export default function Home() {
       <Head>
         <title>Gethin Davies Full Stack Developer</title>
         <meta name="description" content="Home page" />
-        <link rel="icon" href="/favicon.png" />
       </Head>
       <Navbar />
+      <Main />
+      <About />
     </div>
   )
 }
