@@ -56,7 +56,7 @@ const Navbar = () => {
 				<div
 					className={
 						nav
-							? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500"
+							? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-slate-950 p-10 ease-in duration-500"
 							: "fixed left-[-100%] top-0 p-10 ease-in duration-500"
 					}
 				>
@@ -104,7 +104,9 @@ const Navbar = () => {
 									</Link>
 								</ul>
 								<div className="pt-40">
-									<p className="uppercase tracking-widest">Let's Connect</p>
+									<p className="uppercase tracking-widest">
+										Let&apos;s Connect
+									</p>
 								</div>
 								<div>
 									<div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
