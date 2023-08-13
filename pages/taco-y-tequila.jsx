@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
-const taco-y-tequila = () => {
-  return (
-    <div>taco-y-tequila</div>
-  )
-}
+const TacoYTequila = () => {
+	return <div>TacoYTequila</div>;
+};
 
-export default taco-y-tequila
+export default TacoYTequila;
