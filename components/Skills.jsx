@@ -30,7 +30,7 @@ export const Skills = () => {
 							<div className="m-auto">
 								<FaHtml5 size={65} className="text-purple-900" />
 							</div>
-							<div className="felx flex-col items-center justify-center">
+							<div className="flex flex-col items-center justify-center">
 								<h3 className="text-white text-lg">HTML</h3>
 							</div>
 						</div>
@@ -40,7 +40,7 @@ export const Skills = () => {
 							<div className="m-auto">
 								<FaCss3 size={65} className="text-purple-900" />
 							</div>
-							<div className="felx flex-col items-center justify-center">
+							<div className="flex flex-col items-center justify-center">
 								<h3 className="text-white text-lg">CSS</h3>
 							</div>
 						</div>
@@ -50,7 +50,7 @@ export const Skills = () => {
 							<div className="m-auto">
 								<BiLogoJavascript size={65} className="text-purple-900" />
 							</div>
-							<div className="felx flex-col items-center justify-center">
+							<div className="flex flex-col items-center justify-center">
 								<h3 className="text-white text-lg">Javascript</h3>
 							</div>
 						</div>
@@ -60,7 +60,7 @@ export const Skills = () => {
 							<div className="m-auto">
 								<FaPython size={65} className="text-purple-900" />
 							</div>
-							<div className="felx flex-col items-center justify-center">
+							<div className="flex flex-col items-center justify-center">
 								<h3 className="text-white text-lg">Python</h3>
 							</div>
 						</div>
@@ -70,7 +70,7 @@ export const Skills = () => {
 							<div className="m-auto">
 								<FaNodeJs size={65} className="text-purple-900" />
 							</div>
-							<div className="felx flex-col items-center justify-center">
+							<div className="flex flex-col items-center justify-center">
 								<h3 className="text-white text-lg">NodeJs</h3>
 							</div>
 						</div>
@@ -80,7 +80,7 @@ export const Skills = () => {
 							<div className="m-auto">
 								<FaAws size={65} className="text-purple-900" />
 							</div>
-							<div className="felx flex-col items-center justify-center">
+							<div className="flex flex-col items-center justify-center">
 								<h3 className="text-white text-lg">aws</h3>
 							</div>
 						</div>
@@ -90,7 +90,7 @@ export const Skills = () => {
 							<div className="m-auto">
 								<BiLogoFirebase size={65} className="text-purple-900" />
 							</div>
-							<div className="felx flex-col items-center justify-center">
+							<div className="flex flex-col items-center justify-center">
 								<h3 className="text-white text-lg">Firebase</h3>
 							</div>
 						</div>
