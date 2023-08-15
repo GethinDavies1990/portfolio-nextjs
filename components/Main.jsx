@@ -25,7 +25,7 @@ const Main = () => {
 							target="on_blank"
 							rel="noreferrer"
 						>
-							<div className="text-purple-600 border border-purple-600 hover:bg-purple-600 hover:text-white active:bg-purple-600 font-bold uppercase p-6 rounded-full outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-300">
+							<div className="text-purple-600 border border-purple-600 hover:bg-purple-600 hover:text-white active:bg-purple-600 font-bold uppercase p-3 rounded-full outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-300">
 								<FaLinkedinIn />
 							</div>
 						</a>
@@ -34,7 +34,7 @@ const Main = () => {
 							target="on_blank"
 							rel="noreferrer"
 						>
-							<div className="text-purple-600 border border-purple-600 hover:bg-purple-600 hover:text-white active:bg-purple-600 font-bold uppercase p-6 rounded-full outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-300">
+							<div className="text-purple-600 border border-purple-600 hover:bg-purple-600 hover:text-white active:bg-purple-600 font-bold uppercase p-3 rounded-full outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-300">
 								<FaGithub />
 							</div>
 						</a>
@@ -43,12 +43,12 @@ const Main = () => {
 							target="on_blank"
 							rel="noreferrer"
 						>
-							<div className="text-purple-600 border border-purple-600 hover:bg-purple-600 hover:text-white active:bg-purple-600 font-bold uppercase p-6 rounded-full outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-300">
+							<div className="text-purple-600 border border-purple-600 hover:bg-purple-600 hover:text-white active:bg-purple-600 font-bold uppercase p-3 rounded-full outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-300">
 								<AiOutlineMail />
 							</div>
 						</a>
 						{/* <Link href="/contact" target="on_blank">
-						<div className="text-purple-600 border border-purple-600 hover:bg-purple-600 hover:text-white active:bg-purple-600 font-bold uppercase p-6 rounded-full outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-300">
+						<div className="text-purple-600 border border-purple-600 hover:bg-purple-600 hover:text-white active:bg-purple-600 font-bold uppercase p-3 rounded-full outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-300">
 							<BsFillPersonLinesFill />
 						</div>
 						</Link> */}
