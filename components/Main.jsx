@@ -9,34 +9,40 @@ const Main = () => {
 		<div id="home" className="w-full h-screen text-center">
 			<div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
 				<div>
-					<p className="uppercase text-sm tracking-widest text-white">
-						Let&#39;s Build Something Together
-					</p>
 					<h1 className="py-4">
 						Hi, I&#39;m <span className="text-purple-600">Gethin</span>
 					</h1>
 					<h1 className="py-4">A Full Stack Developer</h1>
 					<p className="py-4 text-white mx-w-[70%] m-auto">
-						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum ut
-						aliquid magnam voluptatum qui. Inventore nesciunt cum a! Nam
-						voluptatum tempora atque laborum tenetur praesentium deserunt fugit
-						distinctio aliquam vel.
+						Hello, I&#39;m a full stack developer deeply engaged in exploring
+						the latest trends and technology. From front-end finesse to back-end
+						robustness, I&#39;m passionate about it all. Let&#39;s dive into
+						innovation together!
 					</p>
 					<div className="flex items-center justify-between max-w-[330px] m-auto py-4">
-						<Link href="#contact">
-						<div className="text-purple-600 border border-purple-600 hover:bg-purple-600 hover:text-white active:bg-purple-600 font-bold uppercase p-6 rounded-full outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-300">
-							<FaLinkedinIn />
-						</div>
+						<Link
+							href="https://www.linkedin.com/in/gethin-davies-59301b86/"
+							target="on_blank"
+						>
+							<div className="text-purple-600 border border-purple-600 hover:bg-purple-600 hover:text-white active:bg-purple-600 font-bold uppercase p-6 rounded-full outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-300">
+								<FaLinkedinIn />
+							</div>
 						</Link>
-						<div className="text-purple-600 border border-purple-600 hover:bg-purple-600 hover:text-white active:bg-purple-600 font-bold uppercase p-6 rounded-full outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-300">
-							<FaGithub />
-						</div>
-						<div className="text-purple-600 border border-purple-600 hover:bg-purple-600 hover:text-white active:bg-purple-600 font-bold uppercase p-6 rounded-full outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-300">
-							<AiOutlineMail />
-						</div>
+						<Link href="https://github.com/GethinDavies1990" target="on_blank">
+							<div className="text-purple-600 border border-purple-600 hover:bg-purple-600 hover:text-white active:bg-purple-600 font-bold uppercase p-6 rounded-full outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-300">
+								<FaGithub />
+							</div>
+						</Link>
+						<Link href="mailto:gethindavies1990@gmail.com" target="on_blank">
+							<div className="text-purple-600 border border-purple-600 hover:bg-purple-600 hover:text-white active:bg-purple-600 font-bold uppercase p-6 rounded-full outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-300">
+								<AiOutlineMail />
+							</div>
+						</Link>
+						{/* <Link href="/contact" target="on_blank">
 						<div className="text-purple-600 border border-purple-600 hover:bg-purple-600 hover:text-white active:bg-purple-600 font-bold uppercase p-6 rounded-full outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-300">
 							<BsFillPersonLinesFill />
 						</div>
+						</Link> */}
 					</div>
 				</div>
 			</div>
