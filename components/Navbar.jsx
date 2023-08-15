@@ -104,21 +104,11 @@ const Navbar = () => {
 				>
 					<div>
 						<div className="flex w-full items-center justify-between">
-							<Link href="/">
-								<a>
-									<Image src={NavLogo} alt="/" width="87" height="35" />
-								</a>
-							</Link>
 							<div
 								onClick={handleNav}
 								className=" shadow-lg text-purple-600 border border-purple-600 hover:bg-purple-600 hover:text-white active:bg-purple-600 font-bold uppercase p-3 rounded-full outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
 							>
 								<AiOutlineClose size={25} />
-							</div>
-							<div className="border-b border-gray-300 my-4">
-								<p className="w-[85%] md:w-[90%] py-4">
-									Let&#39;s build something legendary together
-								</p>
 							</div>
 						</div>
 						<div>
