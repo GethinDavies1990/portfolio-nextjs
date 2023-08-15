@@ -23,17 +23,26 @@ const Main = () => {
 						<Link
 							href="https://www.linkedin.com/in/gethin-davies-59301b86/"
 							target="on_blank"
+							rel="noreferrer"
 						>
 							<div className="text-purple-600 border border-purple-600 hover:bg-purple-600 hover:text-white active:bg-purple-600 font-bold uppercase p-6 rounded-full outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-300">
 								<FaLinkedinIn />
 							</div>
 						</Link>
-						<Link href="https://github.com/GethinDavies1990" target="on_blank">
+						<Link
+							href="https://github.com/GethinDavies1990"
+							target="on_blank"
+							rel="noreferrer"
+						>
 							<div className="text-purple-600 border border-purple-600 hover:bg-purple-600 hover:text-white active:bg-purple-600 font-bold uppercase p-6 rounded-full outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-300">
 								<FaGithub />
 							</div>
 						</Link>
-						<Link href="mailto:gethindavies1990@gmail.com" target="on_blank">
+						<Link
+							href="mailto:gethindavies1990@gmail.com"
+							target="on_blank"
+							rel="noreferrer"
+						>
 							<div className="text-purple-600 border border-purple-600 hover:bg-purple-600 hover:text-white active:bg-purple-600 font-bold uppercase p-6 rounded-full outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-300">
 								<AiOutlineMail />
 							</div>

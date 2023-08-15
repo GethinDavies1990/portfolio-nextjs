@@ -34,15 +34,15 @@ const Contact = () => {
 								<h2 className="py-2">Gethin Davies</h2>
 								<p>Full Stack Developer</p>
 								<p className="py-4">
-									I am available for freelance or full-time positions. Contact
-									me and let&apos;s talk.
+									I am available for freelance positions. Contact me and
+									let&apos;s talk.
 								</p>
 							</div>
 							<div>
 								<p className="uppercase pt-8">Connect With Me</p>
 								<div className="flex items-center justify-between py-4">
 									<a
-										href="https://www.linkedin.com/in/clint-briley-50056920a/"
+										href="https://www.linkedin.com/in/gethin-davies-59301b86/"
 										target="_blank"
 										rel="noreferrer"
 									>
@@ -51,7 +51,7 @@ const Contact = () => {
 										</div>
 									</a>
 									<a
-										href="https://github.com/fireclint"
+										href="https://github.com/GethinDavies1990"
 										target="_blank"
 										rel="noreferrer"
 									>
@@ -63,13 +63,13 @@ const Contact = () => {
 									<div className="text-purple-600 border border-purple-600 hover:bg-purple-600 hover:text-white active:bg-purple-600 font-bold uppercase p-4 rounded-full outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-300">
 										<AiOutlineMail />
 									</div>
-									<Link href="/resume">
+									{/* <Link href="/resume">
 										<a>
 											<div className="text-purple-600 border border-purple-600 hover:bg-purple-600 hover:text-white active:bg-purple-600 font-bold uppercase p-4 rounded-full outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-300">
 												<BsFillPersonLinesFill />
 											</div>
 										</a>
-									</Link>
+									</Link> */}
 								</div>
 							</div>
 						</div>
@@ -87,7 +87,7 @@ const Contact = () => {
 									<div className="flex flex-col">
 										<label className="uppercase text-sm py-2">Name</label>
 										<input
-											className="border-2 rounded-lg p-3 flex border-gray-300 bg-yellow-400"
+											className="border-2 rounded-lg p-3 flex border-purple-600 bg-slate-950"
 											type="text"
 											name="name"
 										/>
@@ -97,7 +97,7 @@ const Contact = () => {
 											Phone Number
 										</label>
 										<input
-											className="border-2 rounded-lg p-3 flex border-gray-300"
+											className="border-2 rounded-lg p-3 flex border-purple-600 bg-slate-950"
 											type="text"
 											name="phone"
 										/>
@@ -106,7 +106,7 @@ const Contact = () => {
 								<div className="flex flex-col py-2">
 									<label className="uppercase text-sm py-2">Email</label>
 									<input
-										className="border-2 rounded-lg p-3 flex border-gray-300"
+										className="border-2 rounded-lg p-3 flex border-purple-600 bg-slate-950"
 										type="email"
 										name="email"
 									/>
@@ -114,7 +114,7 @@ const Contact = () => {
 								<div className="flex flex-col py-2">
 									<label className="uppercase text-sm py-2">Subject</label>
 									<input
-										className="border-2 rounded-lg p-3 flex border-gray-300"
+										className="border-2 rounded-lg p-3 flex border-purple-600 bg-slate-950"
 										type="text"
 										name="subject"
 									/>
@@ -122,7 +122,7 @@ const Contact = () => {
 								<div className="flex flex-col py-2">
 									<label className="uppercase text-sm py-2">Message</label>
 									<textarea
-										className="border-2 rounded-lg p-3 border-gray-300"
+										className="border-2 rounded-lg p-3 border-purple-600 bg-slate-950"
 										rows="10"
 										name="message"
 									></textarea>
