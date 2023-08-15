@@ -20,7 +20,7 @@ const Main = () => {
 						innovation together!
 					</p>
 					<div className="flex items-center justify-between max-w-[330px] m-auto py-4">
-						<Link
+						<a
 							href="https://www.linkedin.com/in/gethin-davies-59301b86/"
 							target="on_blank"
 							rel="noreferrer"
@@ -28,8 +28,8 @@ const Main = () => {
 							<div className="text-purple-600 border border-purple-600 hover:bg-purple-600 hover:text-white active:bg-purple-600 font-bold uppercase p-6 rounded-full outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-300">
 								<FaLinkedinIn />
 							</div>
-						</Link>
-						<Link
+						</a>
+						<a
 							href="https://github.com/GethinDavies1990"
 							target="on_blank"
 							rel="noreferrer"
@@ -37,8 +37,8 @@ const Main = () => {
 							<div className="text-purple-600 border border-purple-600 hover:bg-purple-600 hover:text-white active:bg-purple-600 font-bold uppercase p-6 rounded-full outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-300">
 								<FaGithub />
 							</div>
-						</Link>
-						<Link
+						</a>
+						<a
 							href="mailto:gethindavies1990@gmail.com"
 							target="on_blank"
 							rel="noreferrer"
@@ -46,7 +46,7 @@ const Main = () => {
 							<div className="text-purple-600 border border-purple-600 hover:bg-purple-600 hover:text-white active:bg-purple-600 font-bold uppercase p-6 rounded-full outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-300">
 								<AiOutlineMail />
 							</div>
-						</Link>
+						</a>
 						{/* <Link href="/contact" target="on_blank">
 						<div className="text-purple-600 border border-purple-600 hover:bg-purple-600 hover:text-white active:bg-purple-600 font-bold uppercase p-6 rounded-full outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-300">
 							<BsFillPersonLinesFill />

@@ -59,10 +59,15 @@ const Contact = () => {
 											<FaGithub />
 										</div>
 									</a>
-
-									<div className="text-purple-600 border border-purple-600 hover:bg-purple-600 hover:text-white active:bg-purple-600 font-bold uppercase p-4 rounded-full outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-300">
-										<AiOutlineMail />
-									</div>
+									<a
+										href="mailto:gethindavies1990@gmail.com"
+										target="on_blank"
+										rel="noreferrer"
+									>
+										<div className="text-purple-600 border border-purple-600 hover:bg-purple-600 hover:text-white active:bg-purple-600 font-bold uppercase p-4 rounded-full outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-300">
+											<AiOutlineMail />
+										</div>
+									</a>
 									{/* <Link href="/resume">
 										<a>
 											<div className="text-purple-600 border border-purple-600 hover:bg-purple-600 hover:text-white active:bg-purple-600 font-bold uppercase p-4 rounded-full outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-300">
