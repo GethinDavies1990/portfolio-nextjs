@@ -23,9 +23,11 @@ const Main = () => {
 						distinctio aliquam vel.
 					</p>
 					<div className="flex items-center justify-between max-w-[330px] m-auto py-4">
+						<Link href="#contact">
 						<div className="text-purple-600 border border-purple-600 hover:bg-purple-600 hover:text-white active:bg-purple-600 font-bold uppercase p-6 rounded-full outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-300">
 							<FaLinkedinIn />
 						</div>
+						</Link>
 						<div className="text-purple-600 border border-purple-600 hover:bg-purple-600 hover:text-white active:bg-purple-600 font-bold uppercase p-6 rounded-full outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-300">
 							<FaGithub />
 						</div>

@@ -4,7 +4,6 @@ import React, { useEffect, useState } from "react";
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import NavLogo from "../public/assets/images/NavLogo.png";
 import { useRouter } from "next/router";
 
 const Navbar = () => {
@@ -54,15 +53,6 @@ const Navbar = () => {
 			}
 		>
 			<div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-				<Link href="/">
-					<Image
-						src={NavLogo}
-						alt="/"
-						width="125"
-						height="50"
-						className="cursor-pointer"
-					/>
-				</Link>
 				<div>
 					<ul style={{ color: `${linkColor}` }} className="hidden md:flex">
 						<Link href="/">
