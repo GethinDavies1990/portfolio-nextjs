@@ -33,6 +33,10 @@ html {
 	}
 
 	button {
-		@apply rounded-xl uppercase bg-gradient-to-r from-purple-600 to-pink-800 text-black;
+		@apply rounded-xl uppercase bg-gradient-to-r from-purple-600 to-pink-800 text-white;
+	}
+
+	button:hover {
+		@apply bg-white text-gray-900;
 	}
 }
