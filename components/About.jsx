@@ -24,13 +24,13 @@ const About = () => {
 						<span className="text-purple-600">Projects</span>
 					</p>
 				</div>
-				<div className="w-full h-auto m-auto border border-purple-600 rounded-xl items-center justify-center p-4 hover:scale-105 ease-in duration-300">
+				<div className="w-full h-auto m-auto border border-purple-600 rounded-full items-center justify-center p-4 hover:scale-105 ease-in duration-300">
 					<Image
 						src={AboutImg}
 						alt="/"
-						width="200"
-						height="200"
-						className="rounded-full"
+						width="250"
+						height="250"
+						className="rounded-full mx-auto"
 					/>
 				</div>
 			</div>
