@@ -13,6 +13,7 @@ export default function Home() {
         <title>Gethin Davies Full Stack Developer</title>
         <meta name="description" content="Home page" />
         <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
       </Head>
       <Navbar />
       <Main />
