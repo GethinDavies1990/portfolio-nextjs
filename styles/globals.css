@@ -32,6 +32,10 @@ html {
 		@apply cursor-pointer;
 	}
 
+	li:hover {
+		@apply text-purple-600;
+	}
+
 	button {
 		@apply rounded-xl uppercase bg-gradient-to-r from-purple-600 to-pink-800 text-white;
 	}
