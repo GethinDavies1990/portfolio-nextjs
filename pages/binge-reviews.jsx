@@ -35,7 +35,7 @@ const bingeReviews = () => {
 						a server-side backend.
 					</p>
 					<a
-						href="https://gethindavies1990.github.io/CI_MS3_DTR"
+						href="https://binge-reviews.herokuapp.com/"
 						target="_blank"
 						rel="noreferrer"
 					>

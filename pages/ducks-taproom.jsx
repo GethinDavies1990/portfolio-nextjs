@@ -26,13 +26,26 @@ const DucksTaproom = () => {
 					<p>Project</p>
 					<h2>Overview</h2>
 					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-						eum repellat doloribus nemo nihil totam sunt deleniti tenetur
-						temporibus! Unde quidem asperiores et odio corporis voluptate velit
-						tempora! Nisi, necessitatibus?
+						Ducks Taproom is a web application project developed as part of my
+						diploma program, showcasing your foundational skills in web
+						development. The project was created using HTML, CSS, and Bootstrap,
+						and serves as an introduction to building user interfaces and
+						interactive web experiences.
 					</p>
-					<button className="px-8 py-2 mt-4 mr-8">Demo</button>
-					<button className="px-8 py-2 mt-4">Code</button>
+					<a
+						href="https://gethindavies1990.github.io/CI_MS1_DTR"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<button className="px-8 py-2 mt-4 mr-8">Demo</button>
+					</a>
+					<a
+						href="https://github.com/GethinDavies1990/CI_MS1_DTR"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<button className="px-8 py-2 mt-4">Code</button>
+					</a>
 				</div>
 				<div
 					className="col-span-4 md:col-span-1 border border-purple-600 p-4
@@ -48,14 +61,6 @@ const DucksTaproom = () => {
 							<p className="text-purple-600 py-2 flex items-center">
 								<RiRadioButtonFill className="pr-1" />
 								CSS
-							</p>
-							<p className="text-purple-600 py-2 flex items-center">
-								<RiRadioButtonFill className="pr-1" />
-								Javascript
-							</p>
-							<p className="text-purple-600 py-2 flex items-center">
-								<RiRadioButtonFill className="pr-1" />
-								Flask
 							</p>
 						</div>
 					</div>
