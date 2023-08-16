@@ -26,13 +26,28 @@ const bingeReviews = () => {
 					<p>Project</p>
 					<h2>Overview</h2>
 					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-						eum repellat doloribus nemo nihil totam sunt deleniti tenetur
-						temporibus! Unde quidem asperiores et odio corporis voluptate velit
-						tempora! Nisi, necessitatibus?
+						My third portfolio project marks a significant milestone in your
+						journey as a web developer. By incorporating a full-stack approach,
+						this project demonstrates my ability to seamlessly combine frontend
+						and backend technologies. The project utilizes HTML, CSS,
+						JavaScript, EmailJS, Bootstrap, Flask, and Python to create a
+						comprehensive and interactive website with dynamic functionality and
+						a server-side backend.
 					</p>
-					<button className="px-8 py-2 mt-4 mr-8">Demo</button>
-					<button className="px-8 py-2 mt-4">Code</button>
+					<a
+						href="https://gethindavies1990.github.io/CI_MS3_DTR"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<button className="px-8 py-2 mt-4 mr-8">Demo</button>
+					</a>
+					<a
+						href="https://github.com/GethinDavies1990/CI_MS3_DTR"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<button className="px-8 py-2 mt-4">Code</button>
+					</a>
 				</div>
 				<div
 					className="col-span-4 md:col-span-1 border border-purple-600 p-4
