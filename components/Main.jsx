@@ -22,8 +22,9 @@ const Main = () => {
 					<div className="flex items-center justify-between max-w-[330px] m-auto py-4">
 						<a
 							href="https://www.linkedin.com/in/gethin-davies-59301b86/"
-							target="on_blank"
-							rel="noreferrer"
+							target="_blank"
+							rel="noopener noreferrer"
+							aria-label="LinkedIn Profile"
 						>
 							<div className="text-purple-600 border border-purple-600 hover:bg-purple-600 hover:text-white active:bg-purple-600 font-bold uppercase p-3 rounded-full outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-300">
 								<FaLinkedinIn />
