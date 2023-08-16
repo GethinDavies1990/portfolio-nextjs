@@ -10,10 +10,10 @@ const Main = () => {
 			<div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
 				<div>
 					<h1 className="py-4">
-						Hi, I&#39;m <span className="text-purple-600">Gethin</span>
+						Hi, I&#39;m <span className="text-purple-900">Gethin</span>
 					</h1>
 					<h1 className="py-4">A Full Stack Developer</h1>
-					<p className="py-4 text-white max-w-[50%] m-auto">
+					<p className="py-4 text-white max-w-[60%] m-auto">
 						Hello, I&#39;m a full stack developer deeply engaged in exploring
 						the latest trends and technology. From front-end finesse to back-end
 						robustness, I&#39;m passionate about it all. Let&#39;s dive into
