@@ -137,18 +137,39 @@ const Navbar = () => {
 								</div>
 								<div>
 									<div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-										<div className="text-purple-600 border border-purple-600 hover:bg-purple-600 hover:text-white active:bg-purple-600 font-bold uppercase p-3 rounded-full outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150">
-											<FaLinkedinIn />
-										</div>
-										<div className=" shadow-lg text-purple-600 border border-purple-600 hover:bg-purple-600 hover:text-white active:bg-purple-600 font-bold uppercase p-3 rounded-full outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150">
-											<FaGithub />
-										</div>
-										<div className=" shadow-lg text-purple-600 border border-purple-600 hover:bg-purple-600 hover:text-white active:bg-purple-600 font-bold uppercase p-3 rounded-full outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150">
-											<AiOutlineMail />
-										</div>
-										<div className=" shadow-lg text-purple-600 border border-purple-600 hover:bg-purple-600 hover:text-white active:bg-purple-600 font-bold uppercase p-3 rounded-full outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150">
+										<Link
+											href="https://www.linkedin.com/in/gethin-davies-59301b86/"
+											target="_blank"
+											rel="noopener noreferrer"
+											aria-label="LinkedIn Profile"
+										>
+											<div className="text-purple-600 border border-purple-600 hover:bg-purple-600 hover:text-white active:bg-purple-600 font-bold uppercase p-3 rounded-full outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150">
+												<FaLinkedinIn />
+											</div>
+										</Link>
+										<Link
+											href="https://github.com/GethinDavies1990"
+											target="_blank"
+											rel="noopener noreferrer"
+											aria-label="GitHub Profile"
+										>
+											<div className=" shadow-lg text-purple-600 border border-purple-600 hover:bg-purple-600 hover:text-white active:bg-purple-600 font-bold uppercase p-3 rounded-full outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150">
+												<FaGithub />
+											</div>
+										</Link>
+										<Link
+											href="mailto:gethindavies1990@gmail.com"
+											target="_blank"
+											rel="noopener noreferrer"
+											aria-label="Email"
+										>
+											<div className=" shadow-lg text-purple-600 border border-purple-600 hover:bg-purple-600 hover:text-white active:bg-purple-600 font-bold uppercase p-3 rounded-full outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150">
+												<AiOutlineMail />
+											</div>
+										</Link>
+										{/* <div className=" shadow-lg text-purple-600 border border-purple-600 hover:bg-purple-600 hover:text-white active:bg-purple-600 font-bold uppercase p-3 rounded-full outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150">
 											<BsFillPersonLinesFill />
-										</div>
+										</div> */}
 									</div>
 								</div>
 							</div>
