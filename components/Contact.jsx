@@ -90,11 +90,14 @@ const Contact = () => {
 							>
 								<div className="grid md:grid-cols-2 gap-4 w-full py-2">
 									<div className="flex flex-col">
-										<label className="uppercase text-sm py-2">Name</label>
+										<label className="uppercase text-sm py-2" for="name">
+											Name
+										</label>
 										<input
 											className="border-2 rounded-lg p-3 flex border-purple-600 bg-slate-950"
 											type="text"
 											name="name"
+											id="name"
 										/>
 									</div>
 									<div className="flex flex-col">
