@@ -5,7 +5,6 @@ import Link from "next/link";
 const ProjectItem = ({ title, backgroundImg, projectUrl, builtWith }) => {
 	return (
 		<div className=" border border-purple-600 relative flex items-center justify-center h-auto w-full rounded-xl p-4 group hover:bg-gradient-to-r from-purple-600 to-pink-800">
-			<Link href={projectUrl}>
 				<Image
 					className="rounded-xl group-hover:opacity-10"
 					src={backgroundImg}
@@ -18,7 +17,6 @@ const ProjectItem = ({ title, backgroundImg, projectUrl, builtWith }) => {
 						<p className="text-center py-3 rounded-lg text-purple-600 bg-white font-bold text-lg cursor-pointer border border-purple-600">
 							More Info
 						</p>
-					</Link>
 				</div>
 			</Link>
 		</div>
