@@ -1,11 +1,4 @@
 import React from "react";
-
-const lovesports = () => {
-	return <div>lovesports</div>;
-};
-
-export default lovesports;
-import React from "react";
 import Image from "next/image";
 import LoveSportsImg from "../public/assets/projects/loveSports.png";
 import { RiRadioButtonFill } from "react-icons/ri";
