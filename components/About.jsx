@@ -19,7 +19,7 @@ const About = () => {
 						applications, with a distinct emphasis on elevating front-end
 						aesthetics to an art form.
 					</p>
-					<p className="py-2 p-10 cursor-pointer hover:text-pink-600 font-bold">
+					<p className="py-4 cursor-pointer hover:text-pink-600 font-bold">
 						Check out my latest
 						<span className="text-purple-600 hover:text-pink-600">
 							{" "}
@@ -31,8 +31,8 @@ const About = () => {
 					<Image
 						src={AboutImg}
 						alt="/"
-						width="500"
-						height="500"
+						width="400"
+						height="400"
 						className="rounded-xl"
 					/>
 				</div>
