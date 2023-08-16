@@ -4,7 +4,7 @@ import { AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Link from "next/link";
-import ContactImg from "../public/assets/images/ContactImg.jpg";
+import ContactImg from "/../public/assets/images/ContactImg.jpg";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 
 const Contact = () => {
@@ -132,9 +132,7 @@ const Contact = () => {
 										name="message"
 									></textarea>
 								</div>
-								<button className="bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 ...">
-									Save changes
-								</button>
+								<button className="w-full p-4 mt-4">Send Message</button>
 							</form>
 						</div>
 					</div>
