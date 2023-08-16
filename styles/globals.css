@@ -37,6 +37,6 @@ html {
 	}
 
 	button:hover {
-		@apply bg-gradient-to-r from-purple-700 to-pink-900 text-black;
+		@apply bg-gradient-to-r from-pink-400 to-purple-900;
 	}
 }
