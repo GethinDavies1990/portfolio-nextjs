@@ -101,38 +101,48 @@ const Contact = () => {
 										/>
 									</div>
 									<div className="flex flex-col">
-										<label className="uppercase text-sm py-2">
+										<label className="uppercase text-sm py-2" htmlFor="phone">
 											Phone Number
 										</label>
 										<input
 											className="border-2 rounded-lg p-3 flex border-purple-600 bg-slate-950"
 											type="text"
 											name="phone"
+											id="phone"
 										/>
 									</div>
 								</div>
 								<div className="flex flex-col py-2">
-									<label className="uppercase text-sm py-2">Email</label>
+									<label className="uppercase text-sm py-2" htmlFor="email">
+										Email
+									</label>
 									<input
 										className="border-2 rounded-lg p-3 flex border-purple-600 bg-slate-950"
 										type="email"
 										name="email"
+										id="email"
 									/>
 								</div>
 								<div className="flex flex-col py-2">
-									<label className="uppercase text-sm py-2">Subject</label>
+									<label className="uppercase text-sm py-2" htmlFor="subject">
+										Subject
+									</label>
 									<input
 										className="border-2 rounded-lg p-3 flex border-purple-600 bg-slate-950"
 										type="text"
 										name="subject"
+										id="subject"
 									/>
 								</div>
 								<div className="flex flex-col py-2">
-									<label className="uppercase text-sm py-2">Message</label>
+									<label className="uppercase text-sm py-2" htmlFor="message">
+										Message
+									</label>
 									<textarea
 										className="border-2 rounded-lg p-3 border-purple-600 bg-slate-950"
 										rows="10"
 										name="message"
+										id="message"
 									></textarea>
 								</div>
 								<button className="w-full p-4 mt-4">Send Message</button>
