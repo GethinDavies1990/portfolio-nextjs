@@ -132,7 +132,9 @@ const Contact = () => {
 										name="message"
 									></textarea>
 								</div>
-								<button className="w-full p-4 mt-4">Send Message</button>
+								<button className="w-full p-4 mt-4 hover:bg-sky-400">
+									Send Message
+								</button>
 							</form>
 						</div>
 					</div>
