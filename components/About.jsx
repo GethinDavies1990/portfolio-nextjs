@@ -19,7 +19,7 @@ const About = () => {
 						applications, with a distinct emphasis on elevating front-end
 						aesthetics to an art form.
 					</p>
-					<p className="py-4 cursor-pointer hover:text-pink-400 hover:scale-105">
+					<p className="py-4 cursor-pointer hover:text-pink-400 font-bold">
 						Check out my latest
 						<span className="text-purple-600">Projects</span>
 					</p>
