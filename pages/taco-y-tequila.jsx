@@ -34,7 +34,7 @@ const TacoYTequila = () => {
 						integration.
 					</p>
 					<a
-						href="https://gethindavies1990.github.io/CI_MS4_DTR"
+						href="https://taco-y-tequila-c6ff831b9a3a.herokuapp.com/"
 						target="_blank"
 						rel="noreferrer"
 					>
