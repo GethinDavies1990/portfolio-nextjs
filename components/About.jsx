@@ -19,12 +19,9 @@ const About = () => {
 						applications, with a distinct emphasis on elevating front-end
 						aesthetics to an art form.
 					</p>
-					<p className="py-4 cursor-pointer hover:text-pink-600 font-bold">
+					<p className="py-4 cursor-pointer hover:text-purple-600 font-bold">
 						Check out my latest
-						<span className="text-purple-600 hover:text-pink-600">
-							{" "}
-							Projects
-						</span>
+						<span className="font-bold"> Projects</span>
 					</p>
 				</div>
 				<div className="w-full h-auto m-auto border border-purple-600 rounded-xl items-center justify-center p-4 hover:scale-105 ease-in duration-300">
