@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import AboutImg from "../public/assets/images/AboutImg.jpg";
+import AboutImg from "../public/assets/images/AboutImg.png";
 
 const About = () => {
 	return (
