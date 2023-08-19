@@ -59,8 +59,8 @@ const Navbar = () => {
 						<Image
 							src={PortfolioLogo}
 							alt="Portfolio Logo"
-							width="125"
-							height="50"
+							width="87"
+							height="35"
 							className="cursor-pointer"
 						/>
 					</a>
