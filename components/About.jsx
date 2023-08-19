@@ -13,9 +13,9 @@ const About = () => {
 					<p className="py-2">
 						I started my journey in 2022 as a newcomer to full-stack
 						development. What began as a hobby has since evolved into a strong
-						passion for coding. Over time, I've acquired a diverse set of skills
-						and developed a solid foundation in various technical areas. My
-						primary interest lies in creating well-structured full-stack
+						passion for coding. Over time, I&#39;ve acquired a diverse set of
+						skills and developed a solid foundation in various technical areas.
+						My primary interest lies in creating well-structured full-stack
 						applications, with a strong focus on enhancing front-end aesthetics.
 					</p>
 					<Link href="/#projects">
