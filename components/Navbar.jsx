@@ -5,6 +5,7 @@ import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { useRouter } from "next/router";
+import PortfolioLogo from "../public/assets/images/portfolio-logo.svg";
 
 const Navbar = () => {
 	const [nav, setNav] = useState(false);
@@ -53,6 +54,17 @@ const Navbar = () => {
 			}
 		>
 			<div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
+				<Link href="/#home">
+					<a>
+						<Image
+							src={PortfolioLogo}
+							alt="Portfolio Logo"
+							width="125"
+							height="50"
+							className="cursor-pointer"
+						/>
+					</a>
+				</Link>
 				<div>
 					<ul style={{ color: `${linkColor}` }} className="hidden md:flex">
 						<Link href="/">
@@ -96,6 +108,11 @@ const Navbar = () => {
 				>
 					<div>
 						<div className="flex w-full items-center justify-between">
+							<Link href="/#home">
+								<a>
+									<Image src={PortfolioLogo} width="87" height="35" alt="/" />
+								</a>
+							</Link>
 							<div
 								onClick={handleNav}
 								className=" shadow-lg text-purple-600 border border-purple-600 hover:bg-purple-600 hover:text-white active:bg-purple-600 font-bold uppercase p-3 rounded-full outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
