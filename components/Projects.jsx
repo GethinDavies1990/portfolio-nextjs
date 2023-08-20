@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
-import bingeReviews from "../public/assets/projects/bingereviews.png";
-import ducksTaproom from "../public/assets/projects/duckstaproom.png";
-import loveSports from "../public/assets/projects/lovesports.png";
-import tacoTequila from "../public/assets/projects/tacoytequila.png";
+import BingeReviews from "../public/assets/projects/bingereviews.png";
+import DucksTaproom from "../public/assets/projects/duckstaproom.png";
+import LoveSports from "../public/assets/projects/lovesports.png";
+import TacoTequila from "../public/assets/projects/tacoytequila.png";
 import Link from "next/link";
 import ProjectItem from "./ProjectItem";
 
@@ -16,25 +16,25 @@ const Projects = () => {
 				<div className="grid md:grid-cols-2 gap-8">
 					<ProjectItem
 						title="Binge Reviews"
-						backgroundImg={bingeReviews}
+						backgroundImg={BingeReviews}
 						projectUrl="/binge-reviews"
 						builtWith="Flask"
 					/>
 					<ProjectItem
 						title="Ducks Tap"
-						backgroundImg={ducksTaproom}
+						backgroundImg={DucksTaproom}
 						projectUrl="/ducks-taproom"
 						builtWith="HTML, CSS"
 					/>
 					<ProjectItem
 						title="LoveSports"
-						backgroundImg={loveSports}
+						backgroundImg={LoveSports}
 						projectUrl="/lovesports"
 						builtWith="HTML, CSS, JavaScript"
 					/>
 					<ProjectItem
 						title="Taco Y Tequila"
-						backgroundImg={tacoTequila}
+						backgroundImg={TacoTequila}
 						projectUrl="/taco-y-tequila"
 						builtWith="Django"
 					/>
