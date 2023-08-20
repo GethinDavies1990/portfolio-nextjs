@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import BingeReviews from "../public/assets/projects/bingereviews.png";
+import BingeReviewsImg from "../public/assets/projects/bingereviews.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
@@ -13,7 +13,7 @@ const bingeReviews = () => {
 					className="absolute z-1"
 					layout="fill"
 					objectFit="cover"
-					src={BingeReviews}
+					src={BingeReviewsImg}
 					alt="Binge Reviews"
 				/>
 				<div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white p-2 z-10">

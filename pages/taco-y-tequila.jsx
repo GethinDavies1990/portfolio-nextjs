@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import TacoTequila from "../public/assets/projects/tacoytequila.png";
+import TacoTequilaImg from "../public/assets/projects/tacoytequila.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
@@ -13,7 +13,7 @@ const TacoYTequila = () => {
 					className="absolute z-1"
 					layout="fill"
 					objectFit="cover"
-					src={TacoTequila}
+					src={TacoTequilImga}
 					alt="Taco Y Tequila"
 				/>
 				<div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white p-2 z-10">
