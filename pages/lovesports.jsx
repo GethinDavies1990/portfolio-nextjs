@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import LoveSportsImg from "../public/assets/projects/lovesports.png";
+import LoveSportsImg from "../public/assets/images/lovesports.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 

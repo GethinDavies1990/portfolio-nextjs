@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import DucksTaproomImg from "../public/assets/projects/duckstaproom.png";
+import DucksTaproomImg from "../public/assets/images/duckstaproom.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 

@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import BingeReviewsImg from "../public/assets/projects/bingereviews.png";
+import BingeReviewsImg from "../public/assets/images/bingereviews.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
