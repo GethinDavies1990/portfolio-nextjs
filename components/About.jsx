@@ -26,13 +26,13 @@ const About = () => {
 					</Link>
 				</div>
 				<div className="w-auto h-auto m-auto md:w-auto">
-					<div className="border border-purple-600 rounded-full p-4 hover:scale-105 ease-in duration-300 w-250 h-250 md:w-250 md:h-250 sm:w-250 sm:h-250">
+					<div className="p-4 hover:scale-105 ease-in duration-300">
 						<div className="flex items-center justify-center ">
 							<Image
 								src={AboutImg}
 								alt="Gethin Davies Profile Picture"
-								width={250}
-								height={250}
+								width={350}
+								height={350}
 								className="rounded-full object-cover"
 							/>
 						</div>
