@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import bingeReviews from "../public/assets/projects/bingereviews.png";
 import ducksTaproom from "../public/assets/projects/duckstaproom.png";
-import loveSports from "../public/assets/projects/loveSports.png";
+import loveSports from "../public/assets/projects/lovesports.png";
 import tacoTequila from "../public/assets/projects/tacoytequila.png";
 import Link from "next/link";
 import ProjectItem from "./ProjectItem";
