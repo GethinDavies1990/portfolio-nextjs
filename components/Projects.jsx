@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
-import bingeReviews from "../public/assets/projects/bingeReviews.png";
-import ducksTaproom from "../public/assets/projects/ducksTaproom.png";
+import bingeReviews from "../public/assets/projects/bingereviews.png";
+import ducksTaproom from "../public/assets/projects/duckstaproom.png";
 import loveSports from "../public/assets/projects/loveSports.png";
-import tacoTequila from "../public/assets/projects/tacoTequila.png";
+import tacoTequila from "../public/assets/projects/tacoytequila.png";
 import Link from "next/link";
 import ProjectItem from "./ProjectItem";
 
