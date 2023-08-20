@@ -25,14 +25,18 @@ const About = () => {
 						</p>
 					</Link>
 				</div>
-				<div className="w-auto h-auto m-auto mf:w-auto border border-purple-600 rounded-full items-center justify-center p-4 hover:scale-105 ease-in duration-300">
-					<Image
-						src={AboutImg}
-						alt="Gethin Davies Profile Picture"
-						width="250"
-						height="250"
-						className="rounded-full"
-					/>
+				<div className="w-auto h-auto m-auto md:w-auto">
+					<div className="border border-purple-600 rounded-full p-4 hover:scale-105 ease-in duration-300 w-250 h-250 md:w-250 md:h-250 sm:w-250 sm:h-250">
+						<div className="flex items-center justify-center ">
+							<Image
+								src={AboutImg}
+								alt="Gethin Davies Profile Picture"
+								width={250}
+								height={250}
+								className="rounded-full object-cover"
+							/>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
