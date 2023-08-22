@@ -4,6 +4,7 @@ import BingeReviewsImg from "../public/assets/images/bingereviews.png";
 import DucksTaproomImg from "../public/assets/images/duckstaproom.png";
 import LoveSportsImg from "../public/assets/images/lovesports.png";
 import TacoTequilaImg from "../public/assets/images/tacoytequila.png";
+import NetflixCloneImg from "../public/assets/images/netflixclone.png";
 import Link from "next/link";
 import ProjectItem from "./ProjectItem";
 
@@ -37,6 +38,12 @@ const Projects = () => {
 						backgroundImg={TacoTequilaImg}
 						projectUrl="/taco-y-tequila"
 						builtWith="Django"
+					/>
+					<ProjectItem
+						title="Netflix Clone"
+						backgroundImg={NetflixCloneImg}
+						projectUrl="/netflix-clone"
+						builtWith="React, Tailwind, Firebase"
 					/>
 				</div>
 			</div>
