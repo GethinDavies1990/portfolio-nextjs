@@ -26,13 +26,13 @@ const NetflixClone = () => {
 					<p>Project</p>
 					<h2>Overview</h2>
 					<p>
-						My second portfolio project represents a significant advancement in
-						my web development skills, as it incorporates HTML, CSS, JavaScript,
-						and API integration. This project showcases my ability to create
-						dynamic and interactive web experiences while utilizing external
-						data sources. The project is designed to demonstrate your
-						proficiency in web development techniques and my capability to
-						integrate third-party services.
+						The Netflix Clone App is a web application developed using React and
+						enhanced with the power of Tailwind CSS and Firebase. It faithfully
+						replicates the captivating user interface of the popular streaming
+						platform, Netflix. Leveraging React's component-based architecture,
+						Tailwind CSS's utility-first approach for styling, and Firebase for
+						user authentication and watch later functionality, this app offers
+						an immersive and responsive streaming experience.
 					</p>
 					<a
 						href="https://netflix-u9fb.vercel.app/"
