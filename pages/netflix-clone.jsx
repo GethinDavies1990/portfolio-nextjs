@@ -29,10 +29,10 @@ const NetflixClone = () => {
 						The Netflix Clone App is a web application developed using React and
 						enhanced with the power of Tailwind CSS and Firebase. It faithfully
 						replicates the captivating user interface of the popular streaming
-						platform, Netflix. Leveraging React's component-based architecture,
-						Tailwind CSS's utility-first approach for styling, and Firebase for
-						user authentication and watch later functionality, this app offers
-						an immersive and responsive streaming experience.
+						platform, Netflix. Leveraging React&aposs component-based
+						architecture, Tailwind CSS&aposs utility-first approach for styling,
+						and Firebase for user authentication and watch later functionality,
+						this app offers an immersive and responsive streaming experience.
 					</p>
 					<a
 						href="https://netflix-u9fb.vercel.app/"
